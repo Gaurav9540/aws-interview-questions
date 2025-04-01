@@ -115,7 +115,60 @@ AWS Lambda is a serverless compute service that allows you to run code without p
 
 <hr>
 
-**13. 
+**LINUX** <br>
+
+**13. /etc/passwd fields**  <br>
+The /etc/passwd file in Linux stores user account information. <br>
+Fields in /etc/passwd File : <br>
+
+```ssh
+username:password:UID:GID:comment:home_directory:shell <br>
+```
+
+**14. /etc/shadow fields** <br>
+The /etc/shadow file in Linux stores password information in a secure format for system authentication. <br>
+Fields in /etc/shadow File : <br>
+username:password:last_change:min:max:warn:inactive:expire:reserved <br>
+
+**15. What is Crontab ?** <br>
+Crontab (Cron Table) is a Linux utility used to schedule automated tasks (cron jobs) at specified intervals. It is part of the cron daemon, which runs background tasks at predetermined times. <br>
+
+Why Use Crontab? <br>
+✅ Automates repetitive tasks (backups, updates, scripts) <br>
+✅ Runs tasks hourly, daily, weekly, or custom intervals <br>
+✅ Saves time and reduces human errors <br>
+
+crontab fields:  <br>
+MIN  HOUR  DOM  MON  DOW  COMMAND <br>
+
+**16. How to Change Ownership in Linux ?** <br>
+In Linux, the chown (change owner) command is used to change the ownership of files and directories. You can change both the owner and group of a file. <br>
+
+syntax - chown [OPTIONS] NEW_OWNER:NEW_GROUP FILE  <br>
+
+NEW_OWNER → The new owner (username). <br>
+NEW_GROUP → (Optional) The new group. <br>
+FILE → The file or directory to modify. <br>
+
+1. Change File Owner --> chown user1 file.txt  <br>
+   🔹 Example: Change ownership of file.txt to john  <br>
+    chown john file.txt <br>
+
+2. Change Owner and Group --> chown user1:group1 file.txt <br>
+   🔹 Example: Change owner to john and group to developers <br>
+    chown john:developers file.txt <br>
+
+3. Change Ownership for a Directory (Recursively) --> chown -R user1:group1 /path/to/directory <br>
+   🔹 Example: Change ownership of /var/www/html to www-data <br>
+    chown -R www-data:www-data /var/www/html <br>
+
+4. Check File Ownership ---> ls -l file.txt <br>
+
+
+ 
+
+
+
 
 
 
