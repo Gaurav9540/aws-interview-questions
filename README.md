@@ -163,22 +163,81 @@ FILE → The file or directory to modify. <br>
 
 1. Change File Owner --> chown user1 file.txt  <br>
    🔹 Example: Change ownership of file.txt to john  <br>
-    chown john file.txt <br>
+       chown john file.txt <br>
 
 2. Change Owner and Group --> chown user1:group1 file.txt <br>
    🔹 Example: Change owner to john and group to developers <br>
-    chown john:developers file.txt <br>
+       chown john:developers file.txt <br>
 
 3. Change Ownership for a Directory (Recursively) --> chown -R user1:group1 /path/to/directory <br>
    🔹 Example: Change ownership of /var/www/html to www-data <br>
-    chown -R www-data:www-data /var/www/html <br>
+       chown -R www-data:www-data /var/www/html <br>
 
 4. Check File Ownership ---> ls -l file.txt <br>
 
 
- 
+**17. How to Change File Permission ?** <br>
+File permissions in Linux control who can read, write, or execute files and directories. You can modify them using the chmod command. <br>
 
+syntax: <br>
+```ssh
+chmod 750 file.txt
 
+7 → Owner (rwx = 4+2+1 = 7)
+5 → Group (r-x = 4+0+1 = 5)
+0 → Others (no permissions)
+
+       OR
+
+chmod u+rwx,g+rx,o-r file.txt
+```
+
+**18. Absolute Path v/s Relative Path ?** <br>
+1. Absolute Path <br>
+   The full path to a file or directory from the root (/) directory. <br>
+   Always starts with a /. <br>
+   Works from any location in the system. <br>
+
+2. Relative Path <br>
+   A path relative to the current working directory. <br>
+   Does not start with /. <br>
+   Depends on where you are in the system. <br>
+
+**19. used of ping -**
+The ping command is used to test network connectivity between two devices. <br>
+destination can be an IP address or a domain name (e.g., ping google.com). <br>
+
+**20. traceroute -** 
+The traceroute command is used to trace the path that network packets take to reach a destination. It helps in diagnosing network issues by displaying each router (or hop) along the way and the time it takes to reach them. <br>
+
+```ssh
+1. Basic Syntax - traceroute [options] destination
+2. Example Usage - traceroute google.com
+```
+
+**21. tcpdump -**
+tcpdump is a powerful packet sniffer tool used to capture and analyze network traffic in Linux. It works by capturing packets on a specified interface and displaying them in real time. <br>
+
+```ssh
+1. Basic Syntax - tcpdump [options] [expression]
+Options: Modify the capture behavior.
+Expression: Filter packets based on protocols, ports, IPs, etc.
+```
+
+**22. OSI model (Open Systems Interconnection Model)** <br>
+The OSI model is a 7-layer conceptual framework that describes how data moves through a network. Each layer has a specific function and interacts with the layers above and below it. <br>
+
+```ssh
+🛠 7 Layers of the OSI Model
+Layer	Function	Protocols & Devices
+7️⃣ Application	User interface & network services	HTTP, HTTPS, FTP, SMTP, DNS, SSH
+6️⃣ Presentation	Data formatting, encryption, compression	SSL/TLS, JPEG, MP3, ASCII
+5️⃣ Session	Manages communication sessions	NetBIOS, RPC, PPTP
+4️⃣ Transport	Reliable or fast delivery of data	TCP (reliable), UDP (fast)
+3️⃣ Network	Routing & addressing (IP addresses)	IP, ICMP, ARP, Routers
+2️⃣ Data Link	Error detection, MAC addressing	Ethernet, Wi-Fi, Switches
+1️⃣ Physical	Physical transmission of bits	Cables, Hubs, Fiber optics
+```
 
 
 
