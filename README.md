@@ -230,7 +230,22 @@ The OSI model is a 7-layer conceptual framework that describes how data moves th
 <img src="Screenshot 2025-04-01 233037.png" alt="Project Screenshot" width="800">
 
 
+<hr>
 
+**GitHub** <br>
+
+4 basic commands of git: <br>
+
+```ssh
+git init
+git add .
+git commit -M "commit message"
+git remote add origin "link"
+git pull --rebase
+git push origin main
+```
+
+rebase --> Fetches the latest changes from the remote repository
 
 
 
