@@ -228,8 +228,8 @@ tcpdump is a powerful packet sniffer tool used to capture and analyze network tr
 
 ```ssh
 1. Basic Syntax - tcpdump [options] [expression]
-Options: Modify the capture behavior.
-Expression: Filter packets based on protocols, ports, IPs, etc.
+   Options: Modify the capture behavior.
+   Expression: Filter packets based on protocols, ports, IPs, etc.
 ```
 
 <hr>
