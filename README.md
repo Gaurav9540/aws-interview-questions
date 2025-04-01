@@ -133,6 +133,8 @@ Fields in /etc/shadow File : <br>
 username:password:last_change:min:max:warn:inactive:expire:reserved
 ```
 
+<hr>
+
 **15. What is Crontab ?** <br>
 Crontab (Cron Table) is a Linux utility used to schedule automated tasks (cron jobs) at specified intervals. It is part of the cron daemon, which runs background tasks at predetermined times. <br>
 
@@ -151,6 +153,8 @@ crontab fields:  <br>
 ```ssh
 MIN  HOUR  DOM  MON  DOW  COMMAND
 ```
+
+<hr>
 
 **16. How to Change Ownership in Linux ?** <br>
 In Linux, the chown (change owner) command is used to change the ownership of files and directories. You can change both the owner and group of a file. <br>
@@ -192,6 +196,8 @@ chmod 750 file.txt
 chmod u+rwx,g+rx,o-r file.txt
 ```
 
+<hr>
+
 **18. Absolute Path v/s Relative Path ?** <br>
 1. Absolute Path <br>
    The full path to a file or directory from the root (/) directory. <br>
@@ -202,6 +208,8 @@ chmod u+rwx,g+rx,o-r file.txt
    A path relative to the current working directory. <br>
    Does not start with /. <br>
    Depends on where you are in the system. <br>
+
+<hr>
 
 **19. used of ping -**
 The ping command is used to test network connectivity between two devices. <br>
@@ -223,6 +231,8 @@ tcpdump is a powerful packet sniffer tool used to capture and analyze network tr
 Options: Modify the capture behavior.
 Expression: Filter packets based on protocols, ports, IPs, etc.
 ```
+
+<hr>
 
 **22. OSI model (Open Systems Interconnection Model)** <br>
 The OSI model is a 7-layer conceptual framework that describes how data moves through a network. Each layer has a specific function and interacts with the layers above and below it. <br>
