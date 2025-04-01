@@ -229,6 +229,8 @@ The OSI model is a 7-layer conceptual framework that describes how data moves th
 
 ![Project Screenshot](Screenshot 2025-04-01 233037.png)
 
+<img src="Screenshot 2025-04-01 233037.png" alt="Project Screenshot" width="400">
+
 
 
 
