@@ -71,11 +71,11 @@ ALB (Application Load Balancer) and ASG (Auto Scaling Group) are both AWS servic
 
  VPC Architecture Example: <br>
  VPC (10.0.0.0/16) <br>
- │
+ │ <br>
  ├── Public Subnet (10.0.1.0/24) - Web Servers (With Internet Gateway) <br>
- │
+ │ <br>
  ├── Private Subnet (10.0.2.0/24) - Application Servers (No Internet Access) <br>
- │
+ │ <br>
  └── Private Subnet (10.0.3.0/24) - Databases (RDS) (Completely Private) <br>
 
 
