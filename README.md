@@ -228,15 +228,15 @@ Expression: Filter packets based on protocols, ports, IPs, etc.
 The OSI model is a 7-layer conceptual framework that describes how data moves through a network. Each layer has a specific function and interacts with the layers above and below it. <br>
 
 ```ssh
-🛠 7 Layers of the OSI Model
-Layer	Function	Protocols & Devices
-7️⃣ Application	User interface & network services	HTTP, HTTPS, FTP, SMTP, DNS, SSH
-6️⃣ Presentation	Data formatting, encryption, compression	SSL/TLS, JPEG, MP3, ASCII
-5️⃣ Session	Manages communication sessions	NetBIOS, RPC, PPTP
-4️⃣ Transport	Reliable or fast delivery of data	TCP (reliable), UDP (fast)
-3️⃣ Network	Routing & addressing (IP addresses)	IP, ICMP, ARP, Routers
-2️⃣ Data Link	Error detection, MAC addressing	Ethernet, Wi-Fi, Switches
-1️⃣ Physical	Physical transmission of bits	Cables, Hubs, Fiber optics
+🛠 7 Layers of the OSI Model: 
+Layer	                Function                         	                   Protocols & Devices
+7️⃣ Application	       User interface & network services	                   HTTP, HTTPS, FTP, SMTP, DNS, SSH
+6️⃣ Presentation	      Data formatting, encryption, compression 	           SSL/TLS, JPEG, MP3, ASCII
+5️⃣ Session	           Manages communication sessions	                      NetBIOS, RPC, PPTP
+4️⃣ Transport	         Reliable or fast delivery of data	                   TCP (reliable), UDP (fast)
+3️⃣ Network	           Routing & addressing (IP addresses)	                 IP, ICMP, ARP, Routers
+2️⃣ Data              Link	Error detection, MAC addressing	                Ethernet, Wi-Fi, Switches
+1️⃣ Physical	          Physical transmission of bits	                       Cables, Hubs, Fiber optics
 ```
 
 
