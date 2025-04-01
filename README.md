@@ -117,18 +117,21 @@ AWS Lambda is a serverless compute service that allows you to run code without p
 
 **LINUX** <br>
 
-**13. /etc/passwd fields**  <br>
+**13. /etc/passwd fields -**  
 The /etc/passwd file in Linux stores user account information. <br>
 Fields in /etc/passwd File : <br>
 
 ```ssh
-username:password:UID:GID:comment:home_directory:shell <br>
+username:password:UID:GID:comment:home_directory:shell
 ```
 
-**14. /etc/shadow fields** <br>
+**14. /etc/shadow fields -** <br>
 The /etc/shadow file in Linux stores password information in a secure format for system authentication. <br>
 Fields in /etc/shadow File : <br>
-username:password:last_change:min:max:warn:inactive:expire:reserved <br>
+
+```ssh
+username:password:last_change:min:max:warn:inactive:expire:reserved
+```
 
 **15. What is Crontab ?** <br>
 Crontab (Cron Table) is a Linux utility used to schedule automated tasks (cron jobs) at specified intervals. It is part of the cron daemon, which runs background tasks at predetermined times. <br>
@@ -139,7 +142,10 @@ Why Use Crontab? <br>
 ✅ Saves time and reduces human errors <br>
 
 crontab fields:  <br>
-MIN  HOUR  DOM  MON  DOW  COMMAND <br>
+
+```ssh
+MIN  HOUR  DOM  MON  DOW  COMMAND
+```
 
 **16. How to Change Ownership in Linux ?** <br>
 In Linux, the chown (change owner) command is used to change the ownership of files and directories. You can change both the owner and group of a file. <br>
