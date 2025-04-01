@@ -141,6 +141,11 @@ Why Use Crontab? <br>
 ✅ Runs tasks hourly, daily, weekly, or custom intervals <br>
 ✅ Saves time and reduces human errors <br>
 
+```ssh
+crontab -e   ---> to edit crontab
+crontab -l   ---> to view cron jobs
+crontab -r   ---> to remove cron job
+```
 crontab fields:  <br>
 
 ```ssh
