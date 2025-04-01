@@ -79,4 +79,43 @@ ALB (Application Load Balancer) and ASG (Auto Scaling Group) are both AWS servic
  └── Private Subnet (10.0.3.0/24) - Databases (RDS) (Completely Private) <br>
 
 
+**9. Private Subnet v/s Public Subnet ?** <br>
+1. Public Subnet - 
+A public subnet has direct internet access because it is associated with an Internet Gateway (IGW) and has a route to 0.0.0.0/0. <br>
+
+2. Private Subnet -
+A private subnet has no direct internet access—it does NOT have a route to an Internet Gateway (IGW). <br>
+
+Public vs. Private Subnet Architecture Example <br>
+VPC (10.0.0.0/16) <br>
+│ <br>
+├── Public Subnet (10.0.1.0/24) - Web Servers, ALB  [Connected to IGW] <br>
+│ <br>
+├── Private Subnet (10.0.2.0/24) - App Servers [No Internet Access] <br>
+│ <br>
+└── Private Subnet (10.0.3.0/24) - Database (RDS) [Completely Private] <br>
+
+<hr>
+
+**10. What is CloudFront ?** <br>
+AWS CloudFront is a Content Delivery Network (CDN) service that accelerates the delivery of websites, APIs, videos, and other web assets by caching content closer to users at AWS Edge Locations worldwide. <br>
+CloudFront Architecture: <br>
+User Request → Edge Location (Cache) → (If Cache Miss) → Origin Server (S3, EC2, ALB) <br>
+
+<hr>
+
+**11. What is CloudWatch ?** <br>
+AWS CloudWatch is a monitoring and observability service that collects and analyzes logs, metrics, and events from AWS resources and applications. It helps you track performance, detect anomalies, set alerts, and automate responses to system changes. <br>
+AWS CloudWatch is an essential tool for real-time monitoring, logging, and automation in AWS environments. <br>
+
+<hr>
+
+**12. What is LAMDA Service in AWS ?** <br>
+AWS Lambda is a serverless compute service that allows you to run code without provisioning or managing servers. You only pay for the compute time you consume. Lambda automatically manages the underlying infrastructure, so you can focus purely on writing and deploying your code. <br>
+
+<hr>
+
+**13. 
+
+
 
