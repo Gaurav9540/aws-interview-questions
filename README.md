@@ -227,6 +227,8 @@ Expression: Filter packets based on protocols, ports, IPs, etc.
 **22. OSI model (Open Systems Interconnection Model)** <br>
 The OSI model is a 7-layer conceptual framework that describes how data moves through a network. Each layer has a specific function and interacts with the layers above and below it. <br>
 
+![Project Screenshot](images/screenshot.png)
+
 
 
 
