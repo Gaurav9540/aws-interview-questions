@@ -254,8 +254,24 @@ git remote add origin "link"
 git pull --rebase
 git push origin main
 ```
+rebase --> Fetches the latest changes from the remote repository <br>
 
-rebase --> Fetches the latest changes from the remote repository
+
+<hr>
+
+
+**Fail2Ban**
+An intrusion prevention tool that detects and bans IP addresses with suspicious activity. <br>
+Protects against brute-force attacks on SSH and other services. <br>
+
+**Auditd**
+A Linux auditing tool that tracks system activity, user logins, and file changes.  <br>
+Helps with compliance and security monitoring. <br>
+
+
+
+
+
 
 
 
