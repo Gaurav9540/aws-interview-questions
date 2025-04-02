@@ -244,6 +244,14 @@ The OSI model is a 7-layer conceptual framework that describes how data moves th
 
 **GitHub** <br>
 
+**Git** <br>
+A distributed version control system used for tracking code changes. <br>
+Helps in collaboration and managing different versions of the codebase. <br>
+
+**GitHub** <br>
+A cloud-based platform for hosting Git repositories. <br>
+Provides features like pull requests, issue tracking, and CI/CD integrations. <br>
+
 4 basic commands of git: <br>
 
 ```ssh
@@ -260,11 +268,11 @@ rebase --> Fetches the latest changes from the remote repository <br>
 <hr>
 
 
-**Fail2Ban**
+**Fail2Ban -**
 An intrusion prevention tool that detects and bans IP addresses with suspicious activity. <br>
 Protects against brute-force attacks on SSH and other services. <br>
 
-**Auditd**
+**Auditd -**
 A Linux auditing tool that tracks system activity, user logins, and file changes.  <br>
 Helps with compliance and security monitoring. <br>
 
