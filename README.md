@@ -13,6 +13,23 @@ How IAM Enhances Security <br>
 **2. What is EC2 ?** <br>
 Amazon EC2 (Elastic Compute Cloud) is a web service that provides resizable computing capacity in the cloud. It allows users to run virtual servers (instances) on demand, eliminating the need to invest in physical hardware.
 
+**Instance Types :** <br>
+1️⃣ General Purpose <br>
+2️⃣ Compute Optimized <br>
+3️⃣ Memory Optimized <br>
+4️⃣ Storage Optimized <br>
+5️⃣ Accelerated Computing <br>
+6️⃣ HPC Optimized <br>
+
+**EC2 Purchasing Models :** <br>
+1️⃣ On-Demand Instances (Pay-as-You-Go) <br>
+2️⃣ Reserved Instances (RIs) <br>
+3️⃣ Savings Plans (Flexible Cost Savings) <br>
+4️⃣ Spot Instances (Up to 90% Discount!) <br>
+5️⃣ Dedicated Hosts (Physical Server for You Only) <br>
+6️⃣ Dedicated Instances (Private EC2 Instances)  <br>
+7️⃣ Capacity Reservations <br>
+
 <hr>
 
 **3. What is Horizontal Scalling & Vertical Scalling ?** <br>
