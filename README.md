@@ -137,6 +137,14 @@ AWS CloudWatch is an essential tool for real-time monitoring, logging, and autom
 
 <hr>
 
+**What is Route53 ?** <br>
+Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service provided by AWS.  <br>
+It is used for domain registration, DNS management, and traffic routing across AWS and external resources. <br>
+
+**What is RDS ?** <br>
+Amazon RDS (Relational Database Service) is a managed database service provided by AWS that makes it easy to set up, operate, and scale relational databases in the cloud.  <br>
+It automates tasks like provisioning, backups, patching, and scaling. <br>
+
 **12. What is LAMDA Service in AWS ?** <br>
 AWS Lambda is a serverless compute service that allows you to run code without provisioning or managing servers. You only pay for the compute time you consume. Lambda automatically manages the underlying infrastructure, so you can focus purely on writing and deploying your code. <br>
 
