@@ -115,6 +115,26 @@ AWS Lambda is a serverless compute service that allows you to run code without p
 
 <hr>
 
+**12.1 Diff Between AMI, Launch Template and Snaphot** <br>
+
+ **AMI (Amazon Machine Image) -** <br>
+   An AMI is a pre-configured image that contains the OS, application, and necessary settings to launch EC2 instances. <br>
+   It includes system disk snapshots and metadata like permissions and block device mappings. <br>
+   AMIs can be customized, shared across AWS accounts, and used for scaling. <br> 
+   Use case: Creating identical EC2 instances with the same OS, software, and configurations. <br>
+ 
+ **EC2 Launch Template -** <br>
+   A Launch Template is a blueprint that defines instance configurations such as AMI, instance type, security groups, key pairs, storage, and IAM roles. <br>
+   It helps streamline instance creation without manually setting configurations each time. <br>
+   Supports versioning, allowing you to update configurations while maintaining previous versions. <br>
+   Use case: Automating instance launches using Auto Scaling Groups (ASG) and EC2 Fleet. <br>
+
+  **Snapshot -** <br>
+   A Snapshot is a backup of an EBS volume (Elastic Block Store), capturing its state at a specific point in time. <br>
+   Snapshots are incremental (only storing changes after the first full snapshot). <br>
+   They can be used to create new volumes or AMIs. <br>
+   Use case: Disaster recovery, data backup, and migrating data between AWS regions. <br>
+
 **LINUX** <br>
 
 **13. /etc/passwd fields -**  
