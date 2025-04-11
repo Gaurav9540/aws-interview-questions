@@ -149,6 +149,41 @@ It automates tasks like provisioning, backups, patching, and scaling. <br>
 
 <hr>
 
+**What is SQS ?** <br>
+Amazon SQS (Simple Queue Service) is a fully managed message queuing service offered by AWS. <br>
+It enables decoupling of components in a distributed application so they can communicate reliably and asynchronously. <br>
+
+🔧 Key Concepts: <br>
+Queue: A buffer that temporarily stores messages. <br>
+Producers: Send messages to the queue. <br>
+Consumers: Retrieve and process messages from the queue. <br>
+
+<hr>
+
+**What is SNS ?** <br>
+Amazon SNS (Simple Notification Service) is a fully managed pub/sub messaging and mobile notification service in AWS.  <br>
+It allows applications, services, or users to send messages to multiple subscribers instantly. <br>
+
+📦 Use Cases: <br>
+Application alerts & monitoring <br>
+Mobile push notifications (iOS, Android) <br>
+Sending messages from one app to another via Lambda/SQS <br>
+
+ex: A CloudWatch alarm triggers when CPU usage is too high. <br>
+<hr>
+
+**What is SES ?** <br>
+Amazon SES (Simple Email Service) is a cloud-based email sending service provided by AWS. <br>
+It's used to send and receive emails at scale, securely and cost-effectively. <br>
+
+📧 What SES Does: <br>
+Send transactional emails (e.g., order confirmations, password resets) <br>
+Send marketing/bulk emails (e.g., newsletters) <br>
+Receive and process incoming emails <br>
+Monitor email delivery, open rates, bounces, complaints <br>
+
+<hr>
+
 **12. What is LAMDA Service in AWS ?** <br>
 AWS Lambda is a serverless compute service provided by Amazon Web Services. <br>
 It lets you run code without provisioning or managing servers. <br>
