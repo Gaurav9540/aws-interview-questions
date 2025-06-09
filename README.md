@@ -124,6 +124,22 @@ VPC (10.0.0.0/16) <br>
 
 <hr>
 
+ **Diff Between Security groups and NACL**
+ 
+    1. Security Groups - A Security Group in AWS acts as a virtual firewall that controls the inbound and outbound traffic to your AWS resources, such as EC2 instances, RDS databases, etc.
+        - stateful only define inbound rule outbound rule managed by aws
+        - we can create security group at instance level
+        - we can add only allow rule deny rule not possible in security group 
+        
+    2. NACL - A Network ACL (NACL) in AWS is a network-level firewall that controls traffic in and out of subnets in your VPC (Virtual Private Cloud).
+        - stateless need to efine both inbound as well as outbound rules
+        - we can create NACL at subnet level
+        - we can add allow as well as deny rule in NACL
+        - mostly use in complex scenarios
+
+
+<hr>
+
 **10. What is CloudFront ?** <br>
 AWS CloudFront is a Content Delivery Network (CDN) service that accelerates the delivery of websites, APIs, videos, and other web assets by caching content closer to users at AWS Edge Locations worldwide. <br>
 CloudFront Architecture: <br>
