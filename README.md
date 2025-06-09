@@ -136,6 +136,10 @@ VPC (10.0.0.0/16) <br>
      - we can create NACL at subnet level
      - we can add allow as well as deny rule in NACL
      - mostly use in complex scenarios
+
+  - if we create an NACL all the Inbound and Outbound rules are by default deny
+  - but the by default NACL all the Inbound and Outbound rules are by default allow
+
 <hr>
 
 **10. What is CloudFront ?** <br>
