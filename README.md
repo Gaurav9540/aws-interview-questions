@@ -45,12 +45,11 @@ Amazon EC2 (Elastic Compute Cloud) is a web service that provides resizable comp
 **3. What is Horizontal Scalling & Vertical Scalling ?** <br>
 Auto Scaling in AWS helps dynamically adjust computing resources to meet application demands. There are two main types of scaling: Horizontal Scaling and Vertical Scaling. <br>
 
-1. Horizontal Scaling (Scaling Out/In) - 
-Definition: Horizontal scaling (also called scaling out) involves adding more EC2 instances to distribute the workload. Scaling in removes instances when demand decreases.
-
-2. Vertical Scaling (Scaling Up/Down) - 
+1. Vertical Scaling (Scaling Up/Down) - 
 Definition: Vertical scaling (also called scaling up) involves increasing the size (CPU, RAM, disk) of a single EC2 instance. Scaling down reduces the instance size when demand decreases.
 
+2. Horizontal Scaling (Scaling Out/In) - 
+Definition: Horizontal scaling (also called scaling out) involves adding more EC2 instances to distribute the workload. Scaling in removes instances when demand decreases.
 
 **4. Steps to Create Auto Scalling in AWS ?** <br>
 Auto Scaling in AWS ensures that your application can handle varying levels of traffic by automatically adding or removing EC2 instances. Follow these steps to set up Auto Scaling in AWS: <br>
@@ -132,7 +131,7 @@ VPC (10.0.0.0/16) <br>
      - we can add only allow rule deny rule not possible in security group 
         
 2. NACL - A Network ACL (NACL) in AWS is a network-level firewall that controls traffic in and out of subnets in your VPC (Virtual Private Cloud).
-     - stateless need to efine both inbound as well as outbound rules
+     - stateless need to define both inbound as well as outbound rules
      - we can create NACL at subnet level
      - we can add allow as well as deny rule in NACL
      - mostly use in complex scenarios
@@ -402,8 +401,16 @@ Helps with compliance and security monitoring. <br>
 
 <hr>
 
-**Added form Admin Account**
+🔷 **What is EKS?**
 
+Amazon EKS (Elastic Kubernetes Service) is a managed Kubernetes service by AWS.  <br>
+It allows you to run Kubernetes on AWS without having to install, operate, or maintain your own Kubernetes control plane.  <br>
+
+🧠 **What is Kubernetes (Quick Recap)?**
+ - Kubernetes is an open-source container orchestration tool.
+ - It automates deployment, scaling, and management of containerized applications (like Docker).
+ - Helps you manage pods, services, nodes, and clusters.
+   
 <hr>
 
 
