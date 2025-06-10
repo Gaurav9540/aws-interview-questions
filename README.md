@@ -131,7 +131,7 @@ VPC (10.0.0.0/16) <br>
      - we can add only allow rule deny rule not possible in security group 
         
 2. NACL - A Network ACL (NACL) in AWS is a network-level firewall that controls traffic in and out of subnets in your VPC (Virtual Private Cloud).
-     - stateless need to efine both inbound as well as outbound rules
+     - stateless need to define both inbound as well as outbound rules
      - we can create NACL at subnet level
      - we can add allow as well as deny rule in NACL
      - mostly use in complex scenarios
@@ -401,8 +401,16 @@ Helps with compliance and security monitoring. <br>
 
 <hr>
 
-**Added form Admin Account**
+🔷 **What is EKS?**
 
+Amazon EKS (Elastic Kubernetes Service) is a managed Kubernetes service by AWS.  <br>
+It allows you to run Kubernetes on AWS without having to install, operate, or maintain your own Kubernetes control plane.  <br>
+
+🧠 **What is Kubernetes (Quick Recap)?**
+ - Kubernetes is an open-source container orchestration tool.
+ - It automates deployment, scaling, and management of containerized applications (like Docker).
+ - Helps you manage pods, services, nodes, and clusters.
+   
 <hr>
 
 
